@@ -2,13 +2,15 @@ def create_olympics_hash
 olympic_places_array= ["Sydney", "Athens", "Beijing", "London"]
 olympic_years_array = [2000, 2004, 2008, 2012]
 olympics_hash = {}
-places_year = 0 
+places_years = 0 
 olympic_places_array.each do |places|
-olympics_hash[places]= olympic_years_array[places_year]
-places_year += 1
+olympics_hash[places]= olympic_years_array[places_years]
+places_years += 1
 end
 puts olympics_hash
-puts ""
+olympics_hash.each do |places, years|
+puts "The  summer olympics took place in Atlanta."
+end
 
 
 
