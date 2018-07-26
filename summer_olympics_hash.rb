@@ -14,14 +14,6 @@ end
 
 
 
-  olympics_hash[places]= olympic_years_array[years]
-  places_year += 1
-end 
-return olympics_hash
-puts olympics_hash
-puts create_olympics_hash
-c
-
     
   
 
